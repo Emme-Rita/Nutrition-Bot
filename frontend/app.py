@@ -11,7 +11,7 @@ page = st.sidebar.radio('Go to', ['Home', 'Recipes', 'Nutrition Advice', 'About'
 if page == 'Home':
     st.title('Welcome to the Local Recipe & Nutrition Bot')
     st.subheader('Discover affordable local recipes and get nutritional advice')
-    st.image('https://images.unsplash.com/photo-1504674900247-0877df9cc836', use_column_width=True)
+    st.image('https://images.unsplash.com/photo-1504674900247-0877df9cc836', use_container_width=True)
 
 # Recipes Page
 elif page == 'Recipes':
